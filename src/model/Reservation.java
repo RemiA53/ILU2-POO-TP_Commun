@@ -3,9 +3,8 @@ package model;
 public abstract class Reservation {
 	private int jour;
 	private int mois;
-	
+
 	public Reservation(int jour, int mois) {
-		super();
 		this.jour = jour;
 		this.mois = mois;
 	}
@@ -17,7 +16,7 @@ public abstract class Reservation {
 	public int getMois() {
 		return mois;
 	}
-	
+
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
@@ -27,5 +26,5 @@ public abstract class Reservation {
 		sb.append(mois);
 		return sb.toString();
 	}
-	
+
 }
