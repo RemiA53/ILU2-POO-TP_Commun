@@ -4,7 +4,7 @@ public abstract class EntiteReservable<F extends Formulaire> {
 	private CalendrierAnnuel carnetReservation;
 	private int identification;
 	
-	public EntiteReservable(CalendrierAnnuel carnetReservation, int identification) {
+	protected EntiteReservable(CalendrierAnnuel carnetReservation, int identification) {
 		this.carnetReservation = carnetReservation;
 		this.identification = identification;
 	}
