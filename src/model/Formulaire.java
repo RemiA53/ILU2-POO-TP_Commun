@@ -17,7 +17,7 @@ public abstract class Formulaire {
 	public int getMois() {
 		return mois;
 	}
-	
+
 	public int getIdentificationEntite() {
 		return identificationEntite;
 	}
